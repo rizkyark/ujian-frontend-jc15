@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "rizky@mail.com",
+      "password": "qwe123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "r@mail.com",
+      "password": "qwe123",
+      "role": "user"
+    },
+    {
+      "email": "rizky99@mail.com",
+      "password": "qwe123",
+      "id": 3
+    },
+    {
+      "email": "rizkynew99@gmail.com",
+      "password": "asd123",
+      "id": 4
+    },
+    {
+      "email": "rizkynew99@gmail.com",
+      "password": "qwe123",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "category": "All"
+    },
+    {
+      "id": 1,
+      "category": "satu"
+    },
+    {
+      "id": 2,
+      "category": "dua"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryID": 1,
+      "name": "Orion",
+      "stock": 20,
+      "price": 500000,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/pd21_400x.jpg?v=1607510871"
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "name": "Centaurus",
+      "stock": 9,
+      "price": 1000000,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/Z200G_400x.jpg?v=1607510439"
+    },
+    {
+      "id": 3,
+      "categoryID": 2,
+      "name": "Thelema",
+      "stock": 9,
+      "price": 600000,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/QP81_400x.jpg?v=1607510927"
+    },
+    {
+      "id": 4,
+      "categoryID": 2,
+      "name": "Grus",
+      "stock": 20,
+      "price": 800000,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/Z100A_400x.jpg?v=1607510741"
+    },
+    {
+      "id": 5,
+      "categoryID": 3,
+      "name": "Gemini",
+      "stock": 5,
+      "price": 650000,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/MP80_400x.jpg?v=1607510522"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Orion",
+      "categoryID": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/pd21_400x.jpg?v=1607510871",
+      "qty": 12,
+      "userID": 4,
+      "price": 500000,
+      "id": 1
+    },
+    {
+      "name": "Centaurus",
+      "categoryID": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0373/6161/4981/products/Z200G_400x.jpg?v=1607510439",
+      "qty": 2,
+      "userID": 5,
+      "price": 1000000,
+      "id": 2
+    }
+  ],
+  "transaction": []
+}
